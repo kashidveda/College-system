@@ -1,0 +1,156 @@
+.subheader
+{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white; 
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+
+.nav-links ul li:hover::after{ 
+    width: 100%;
+}
+#abth2{
+    color: white;
+    margin-left: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100px;
+    font-size: 30px;
+}
+.row1{
+    margin: 10%;
+}
+.about-col img{
+    margin: 5%;
+    width: 500px;
+}
+#hero-btn{
+    border-radius: 2px 2px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 2px, 3px;
+    font-size: 20px;
+}
+/* --------------------------------------------CTA------------------------------------------------- */
+.cta{
+    /* margin: 100px auto; */
+    width: 80%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.course{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+}
+#title{
+    margin-top: 50px;
+    
+}
+p{
+    
+    color: grey;
+}
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    
+}
+.col{
+    flex-basis: 27%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin: 3%;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.col:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+/* --------------------------------- separate Course------------------- */
+
+
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.facility-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facility-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facility-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* ----------------------------------footer------------------------------- */
+.footer{
+    
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-weight: 600;
+}
+.footer a{
+    text-decoration: none;
+    margin: 10px;
+    color: orangered;
+    size: 20px;
+}
